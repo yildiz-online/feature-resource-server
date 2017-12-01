@@ -45,7 +45,7 @@ import java.util.Optional;
  *
  * @author Grégory Van den Borre
  */
-public final class PersistentResources implements PersistentData<ResourcesProducer, ResourcesProducer> {
+public final class PersistentResources implements PersistentData<ResourcesProducer, ResourcesProducer, ResourcesProducer> {
 
     /**
      * Database table containing the data.
