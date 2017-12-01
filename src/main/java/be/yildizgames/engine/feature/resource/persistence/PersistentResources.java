@@ -25,7 +25,7 @@
 package be.yildizgames.engine.feature.resource.persistence;
 
 import be.yildiz.common.id.EntityId;
-import be.yildiz.module.database.data.PersistentData;
+import be.yildiz.module.database.data.SimplePersistentData;
 import be.yildizgames.engine.feature.resource.ResourceOwner;
 import be.yildizgames.engine.feature.resource.ResourceOwnerProvider;
 import be.yildizgames.engine.feature.resource.ResourceValue;
@@ -45,7 +45,7 @@ import java.util.Optional;
  *
  * @author Grégory Van den Borre
  */
-public final class PersistentResources implements PersistentData<ResourcesProducer, ResourcesProducer, ResourcesProducer> {
+public final class PersistentResources implements SimplePersistentData<ResourcesProducer> {
 
     /**
      * Database table containing the data.
