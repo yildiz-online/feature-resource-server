@@ -24,7 +24,7 @@
 
 package be.yildizgames.engine.feature.resource.persistence;
 
-import be.yildiz.module.database.data.SimplePersistentData;
+import be.yildizgames.module.database.data.SimplePersistentData;
 import be.yildizgames.common.model.EntityId;
 import be.yildizgames.engine.feature.resource.ResourceOwner;
 import be.yildizgames.engine.feature.resource.ResourceOwnerProvider;
