@@ -12,7 +12,6 @@ import org.jooq.Index;
 import org.jooq.OrderField;
 import org.jooq.impl.AbstractKeys;
 
-
 /**
  * A class modelling indexes of tables of the <code>PUBLIC</code> schema.
  */

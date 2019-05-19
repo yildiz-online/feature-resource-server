@@ -8,7 +8,6 @@ import be.yildizgames.engine.feature.resource.generated.database.tables.Resource
 
 import javax.annotation.Generated;
 
-
 /**
  * Convenience access to all tables in PUBLIC
  */

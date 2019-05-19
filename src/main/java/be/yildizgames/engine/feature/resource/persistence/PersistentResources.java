@@ -124,4 +124,5 @@ public final class PersistentResources implements SimplePersistentData<Resources
         settings.setExecuteLogging(false);
         return DSL.using(c, settings);
     }
+
 }

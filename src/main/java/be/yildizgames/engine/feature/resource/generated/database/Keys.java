@@ -13,7 +13,6 @@ import org.jooq.Identity;
 import org.jooq.UniqueKey;
 import org.jooq.impl.AbstractKeys;
 
-
 /**
  * A class modelling foreign key relationships and constraints of tables of 
  * the <code>PUBLIC</code> schema.
